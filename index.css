@@ -97,6 +97,11 @@ input{
   background: rgba(0, 0, 0, 0.9);
 }
 .box{
+  background-image: url("https://img.icons8.com/color/48/000000/cancel--v1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  position: relative;
   color:white;
   display: grid;
   grid-gap: 0;
@@ -136,4 +141,12 @@ input{
       grid-template-columns: repeat(1 , minmax(200px , auto));
        grid-template-rows: 1fr;
   }
+  .cross{
+    position:
+  }
+}
+.cross{
+  position:relative;
+  right: 11px;
+  top: 11px;
 }
